@@ -1,0 +1,49 @@
+body{
+    background-color: #EADBC8;
+}
+header{
+    background-color: #be865b;
+    padding: 10px;
+    border-radius: 2px;
+    border: 10px;
+}
+#myImage{
+    max-width: 400px;
+    max-height: 450px;
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  
+}
+.btn {
+    background: #F7DCB9;
+    background-image: -webkit-linear-gradient(top,  #be865b,  #be865b);
+    background-image: -moz-linear-gradient(top,  #be865b, #be865b);
+    background-image: -ms-linear-gradient(top, #be865b, #be865b);
+    background-image: -o-linear-gradient(top,  #be865b,  #be865b);
+    background-image: linear-gradient(to bottom,  #be865b,  #be865b);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  aside{
+    padding: 10px;
+    margin: top 10px; ;
+  }
+  footer{
+    text-align: center;
+  }
+@media (min-width: 600px) and (max-widht:900px){
+ img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+}
